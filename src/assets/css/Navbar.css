@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    /* filter: contrast(64%); */
+    padding: 20px;
+  }
+  
+  .navbar-title,
+  .navbar-title > a {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    /* color: white; */
+  }
+  
+  .slogan{
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.5;
+  }
+  .navbar-routes,   
+  .navbar-routes > a {
+    color: var(--primary);
+    text-decoration: none;
+  }
